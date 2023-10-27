@@ -1,11 +1,9 @@
 <?php
     $name = $_POST['name'];
-    $surname = $_POST['surname'];
 	$phone = $_POST['phone'];
-    $email = $_POST['email'];
     $text = $_POST['text'];
 
-	$to = "denis.koblya@gmail.com"; 
+	$to = "sshaprans@gmail.com"; 
 	$date = date ("d.m.Y"); 
 	$time = date ("h:i");
 	$from = $email;
@@ -19,5 +17,3 @@
 	mail($to, $subject, $msg, "From: $to ");
 
 ?>
-
-<p> </p>
